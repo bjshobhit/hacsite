@@ -43,3 +43,19 @@ a {
     background-image: url("hero-bg.webp");
     background-size: cover;
 }
+.hero-heading{
+    padding-top: 80px;
+}
+.hero-heading p{
+
+ font-size: 1.5rem;
+}
+p{
+    color: bisque;
+}
+h5{
+    color: white;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-decoration: underline;
+}
