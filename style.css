@@ -44,18 +44,16 @@ a {
     background-size: cover;
 }
 .hero-heading{
-    padding-top: 80px;
+    padding-top: 380px;
 }
 .hero-heading p{
  text-decoration: underline;
  font-size: 1.5rem;
+ font-weight: 600;
+ color:rgba(194, 6, 37, 0.767);
 }
-p{
-    color:rgba(27, 11, 65, 0.767);
-}
-h5{
-    color: white;
-    font-size: 2rem;
-    font-weight: bolder;
-    text-decoration: underline;
+.hero-content p{
+    font-size: 1.2rem;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
