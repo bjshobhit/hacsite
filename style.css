@@ -45,15 +45,17 @@ a {
 }
 .hero-heading{
     padding-top: 380px;
+    margin-left: 20px;
 }
 .hero-heading p{
  text-decoration: underline;
- font-size: 1.5rem;
- font-weight: 600;
- color:rgba(194, 6, 37, 0.767);
+ font-size: 1.7rem;
+ font-weight: 800;
+ color:rgb(250, 249, 249);
 }
 .hero-content p{
     font-size: 1.2rem;
-    
+    margin-left: 20px;
+    color: rgb(206, 189, 169);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
