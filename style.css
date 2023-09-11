@@ -4,6 +4,18 @@ body{
     box-sizing: border-box;
 
 }
+.container {
+    display: flex;
+    width: 100%; /* Occupy the entire screen width */
+}
+
+/* Style for each side-by-side div */
+.side-div {
+    flex: 1; /* Equal width for both divs, they will share the screen space evenly */
+    height: 200px; /* Set the height as needed */
+    background-color: #e0e0e0; /* Background color for demonstration */
+    border: 1px solid #ccc; /* Border for demonstration */
+}
 .lhs{
     display:inline-flex;
 }
@@ -58,7 +70,8 @@ a {
   background: linear-gradient(90.21deg, rgba(0, 0, 0, 0.5) -5.91%, rgba(0, 0, 0, 0.5) 111.58%);
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 20px;
-  margin-bottom: 5px;
+  margin-top: 20px;
+  
   display: inline-block;
 }
 .para2{
@@ -91,4 +104,36 @@ a {
     display: flex;
     align-items: center;
   }
-   
+  .card {
+    display: flex;
+    max-width: 400px;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Style for the vertical image section */
+.card img {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Style for the horizontal text section */
+.card-content {
+    padding: 20px;
+}
+
+/* Style for the title */
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Style for the description */
+.card-description {
+    font-size: 1rem;
+    color: #666;
+}
