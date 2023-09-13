@@ -22,6 +22,10 @@ body{
     flex-direction: column;
     width: 60%;
     height: 100%;
+    background-image: url("images/hero-bg.webp");
+    background-size: cover;
+    /* backdrop-filter: blur(200px);  */
+    /* background-color: rgba(0,0,0,0.6);    */
 }
 
 nav {
@@ -29,6 +33,7 @@ nav {
     display: flex;
     width: 100%;
     justify-content: center;
+    
     /* position: relative; */
     /* background-color: wheat; */
 }
@@ -63,8 +68,7 @@ a {
 .hero{
     height: 100vh;
     width: 60vw;
-    background-image: url("header-img.jpg");
-    background-size:cover;
+    backdrop-filter: blur(5px);
 }
 .hero-heading{
     padding-top: 160px;
@@ -98,6 +102,7 @@ a {
     letter-spacing: 0.8px;
     line-height: 1.5em;
     width: 96%;
+    /* backdrop-filter: blur(20px); */
 }
 .sign button {
     margin-left: 20px;
@@ -114,7 +119,8 @@ a {
 
 .rhs {
     flex-grow: 1;
-    overflow-y: scroll;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .card {
@@ -129,7 +135,7 @@ a {
 
 .card-text{
     position: absolute;
-    width: 100%;
+    width: 90%;
     height: 60%;
     background-color: black;
     
