@@ -148,6 +148,7 @@ a {
     width: 25%;
     background-color: green;
     left: 10%;
+    
 }
 .card-img-odd{
     position: absolute;
@@ -162,6 +163,8 @@ a {
     width: 40%;
     background-color: aqua;
     margin-left: 20px;
+    font-weight: bold;
+    text-align: center;
     
 }
 .card-content{
@@ -170,6 +173,8 @@ a {
     background-color: antiquewhite;
     margin-top: 20px;
     margin-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
     
     
 }
@@ -179,6 +184,8 @@ a {
     width: 40%;
     background-color: aqua;
     margin-left: 56%;
+    font-weight: bold;
+    text-align: center;
     
 }
 .card-content-even{
@@ -187,6 +194,8 @@ a {
     background-color: antiquewhite;
     margin-top: 20px;
     margin-left: 36%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
     
     
 }
